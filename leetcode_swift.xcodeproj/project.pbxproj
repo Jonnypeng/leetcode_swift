@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FB96B588287FDA84001E430D /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96B587287FDA84001E430D /* main.swift */; };
+		FB96B591287FDB45001E430D /* first-missing-positive.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB96B590287FDB45001E430D /* first-missing-positive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,7 @@
 /* Begin PBXFileReference section */
 		FB96B584287FDA84001E430D /* leetcode_swift */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = leetcode_swift; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB96B587287FDA84001E430D /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB96B590287FDB45001E430D /* first-missing-positive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "first-missing-positive.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +59,18 @@
 		FB96B586287FDA84001E430D /* leetcode_swift */ = {
 			isa = PBXGroup;
 			children = (
+				FB96B58F287FDAF6001E430D /* src */,
 				FB96B587287FDA84001E430D /* main.swift */,
 			);
 			path = leetcode_swift;
+			sourceTree = "<group>";
+		};
+		FB96B58F287FDAF6001E430D /* src */ = {
+			isa = PBXGroup;
+			children = (
+				FB96B590287FDB45001E430D /* first-missing-positive.swift */,
+			);
+			path = src;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +131,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB96B591287FDB45001E430D /* first-missing-positive.swift in Sources */,
 				FB96B588287FDA84001E430D /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

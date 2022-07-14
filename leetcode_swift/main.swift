@@ -7,5 +7,6 @@
 
 import Foundation
 
-print("Hello, World!")
+var r = firstMissingPositive([1])
 
+print(r)
